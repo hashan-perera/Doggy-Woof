@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SearchDogBreed.class);
+                Intent intent = new Intent(getApplicationContext(), Search.class);
                 startActivity(intent);
                 //LogCat statement.
                 Log.d(LOG_TAG, "Button clicked, Search Dog Breed.");
