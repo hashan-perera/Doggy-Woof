@@ -13,5 +13,7 @@ public class Names {
                     "Pomeranian",
                     "Pug",
                     "Rhodesian Ridgeback",
+                    "Rottweiler",
+                    "Scotch Terrier"
             };
 }
