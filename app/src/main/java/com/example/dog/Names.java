@@ -14,6 +14,6 @@ public class Names {
                     "Pug",
                     "Rhodesian Ridgeback",
                     "Rottweiler",
-                    "Scotch Terrier"
+                    "Scotch Terrierr"
             };
 }
