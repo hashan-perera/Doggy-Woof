@@ -6,7 +6,7 @@
     <string name="search_dog_breed">Search Dog Breed</string>
     <string name="image_main">image_main</string>
     //activity_identify_breed
-    <string name="imageview_dog">imageView_dog</string>
+    <string name="imageview_dog1">imageView_dog1</string>
     <string name="button_submit1">Submit</string>
     //activity_identify_dog
     <string name="imagebutton_dog1">imageButton_dog1</string>
@@ -14,7 +14,7 @@
     <string name="imagebutton_dog3">imageButton_dog3</string>
     <string name="button_next">Next</string>
     //activity_search
-    <string name="button_submit3">Button</string>
+    <string name="button_submit3">Submit</string>
     <string name="imageview_dog3">imageView_dog3</string>
     <string name="button_stop">Stop</string>
 </resources>

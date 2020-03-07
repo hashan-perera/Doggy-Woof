@@ -16,8 +16,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //LogCat statement.
-        Log.d(LOG_TAG, "On create.");
+        Log.d(LOG_TAG, "Main Activity.");
 
         final Button identifyBreed = (Button) findViewById(R.id.btn_breed);
         Button identifyDog = (Button) findViewById(R.id.btn_dog);
