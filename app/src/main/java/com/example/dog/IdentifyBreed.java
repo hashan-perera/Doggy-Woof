@@ -58,6 +58,7 @@ public class IdentifyBreed extends AppCompatActivity {
                     public void onClick(View v) {
                         int name_index = spinner_breed.getSelectedItemPosition();
                         int image_index = number;
+                        spinner_breed.setEnabled(false);
 
                         //Result logic.
                         for (int i = 0; i < 1000; i++) {

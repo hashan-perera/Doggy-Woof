@@ -30,8 +30,8 @@ public class IdentifyDog extends AppCompatActivity {
         Names2 name = new Names2();
         TextView textView_name2 = findViewById(R.id.textView_name2);
         final ImageButton imageButton_dog1 = findViewById(R.id.imageButton_dog1);
-        ImageButton imageButton_dog2 = findViewById(R.id.imageButton_dog2);
-        ImageButton imageButton_dog3 = findViewById(R.id.imageButton_dog3);
+        final ImageButton imageButton_dog2 = findViewById(R.id.imageButton_dog2);
+        final ImageButton imageButton_dog3 = findViewById(R.id.imageButton_dog3);
         final TextView textView_status2 = findViewById(R.id.textView_status2);
         final Button button_next = findViewById(R.id.button_next);
 
@@ -75,6 +75,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("CORRECT!");
                     textView_status2.setTextColor(Color.GREEN);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
             button_next.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +94,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("WRONG!");
                     textView_status2.setTextColor(Color.RED);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
             button_next.setOnClickListener(new View.OnClickListener() {
@@ -110,6 +116,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("CORRECT!");
                     textView_status2.setTextColor(Color.GREEN);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
             button_next.setOnClickListener(new View.OnClickListener() {
@@ -126,6 +135,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("WRONG!");
                     textView_status2.setTextColor(Color.RED);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
             button_next.setOnClickListener(new View.OnClickListener() {
@@ -145,6 +157,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("CORRECT!");
                     textView_status2.setTextColor(Color.GREEN);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
             button_next.setOnClickListener(new View.OnClickListener() {
@@ -161,6 +176,9 @@ public class IdentifyDog extends AppCompatActivity {
                 public void onClick(View view) {
                     textView_status2.setText("WRONG!");
                     textView_status2.setTextColor(Color.RED);
+                    imageButton_dog1.setEnabled(false);
+                    imageButton_dog2.setEnabled(false);
+                    imageButton_dog3.setEnabled(false);
                 }
             });
 
