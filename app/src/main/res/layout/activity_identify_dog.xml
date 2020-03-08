@@ -20,43 +20,45 @@
 
     <ImageButton
         android:id="@+id/imageButton_dog1"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/imagebutton_dog1"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView_status2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView_name2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name2"
         app:srcCompat="@drawable/american_staffordshire_terrier_1" />
 
     <ImageButton
         android:id="@+id/imageButton_dog2"
-        android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:contentDescription="@string/imagebutton_dog2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageButton_dog1"
-        app:srcCompat="@drawable/basset_1" />
-
-    <ImageButton
-        android:id="@+id/imageButton_dog3"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:contentDescription="@string/imagebutton_dog2"
+        app:layout_constraintBottom_toTopOf="@+id/textView_status2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_dog3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_dog1"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name2"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/basset_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton_dog3"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/imagebutton_dog3"
-        app:layout_constraintBottom_toTopOf="@id/textView_status2"
+        app:layout_constraintBottom_toTopOf="@+id/textView_status2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageButton_dog2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name2"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/beagle_1" />
 
     <TextView
@@ -64,19 +66,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_dog3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_next"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="#CDDC39"
@@ -84,6 +84,5 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView_status2" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
