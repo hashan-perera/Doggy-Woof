@@ -15,6 +15,8 @@
     <string name="button_next">Next</string>
     //activity_search
     <string name="button_submit3">Submit</string>
+    <string name="hint">Search Dog Breed</string>
     <string name="imageview_dog3">imageView_dog3</string>
     <string name="button_stop">Stop</string>
+
 </resources>

@@ -11,8 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Search"
-            android:configChanges="orientation|screenSize" />
-        //To prevent activity re-create when orientation changes.
+            android:configChanges="orientation|screenSize"></activity>
         <activity
             android:name=".IdentifyDog"
             android:configChanges="orientation|screenSize" />
