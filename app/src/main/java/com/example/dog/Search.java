@@ -21,7 +21,7 @@ public class Search extends AppCompatActivity {
         setContentView(R.layout.activity_search);
 
         //LogCat statement.
-        Log.d(LOG_TAG, ">IdentifyBreed");
+        Log.d(LOG_TAG, ">Search");
 
         final Names names = new Names();
         final Names2 names2 = new Names2();
